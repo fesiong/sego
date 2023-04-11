@@ -28,7 +28,7 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/huichen/sego"
+	"github.com/fesiong/sego"
 	"log"
 	"os"
 	"runtime"
@@ -40,7 +40,7 @@ var (
 	cpuprofile = flag.String("cpuprofile", "", "处理器profile文件")
 	memprofile = flag.String("memprofile", "", "内存profile文件")
 	output     = flag.String("output", "", "输出分词结果到此文件")
-	numRuns    = 20
+	//numRuns    = 20
 )
 
 func main() {
